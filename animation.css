@@ -33,7 +33,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: red;
+  background: #000;
 }
 
 .resizeMe, .resizeMe2 {
@@ -162,11 +162,15 @@ video.asds {
 .asdwjlaij {
     height: 100vh;
     display: flex;
-    background: #e32727;
+    background: #000;
     position: relative;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
     text-align: center;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    top: 0;
 }
 .scrollMe {
     height: 100vh;
@@ -180,6 +184,8 @@ video.asds {
 .row {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
 }
 .alignCenter {
     align-items: center;
@@ -187,16 +193,42 @@ video.asds {
 
 .techonologies {
     width: 100%;
-    background: red;
+    background: #000;
     max-width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
 .spaceArround {
     
     justify-content: space-around;
 }
-
-
-
+.col-md-6 {
+    flex: 0 47%;
+    padding: 0px 20px;
+    position: relative;
+}
+.techs {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    right: 0;
+    left: 0;
+}
+.innerLInetechsMove {
+    height: 100px;
+    background: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
 
 
 

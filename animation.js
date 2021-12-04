@@ -21,16 +21,19 @@ sectionHeader.add().fromTo('.containerInner p', {autoAlpha: 0,   y: "6vw"}, {aut
 
 let tech = gsap.timeline({
     scrollTrigger: {
-        trigger: '.techonologies',
+        trigger: '.asdwjlaij',
         pin: true,
-        start: "top center", 
-        end: "bottom center",
+        start: "top top", 
+        end: "100%",
         scrub: 1, 
         markers: true,
     }
 });
 
-
+tech.fromTo('.contenttech p:first-child', {opacity: 0}, {opacity: 1})
+tech.add().from('.contenttech p:nth-child(2)', {opacity: 0}).to('.contenttech p:nth-child(2)', {opacity: 1})
+tech.add().from('.contenttech p:nth-child(3)', {opacity: 0}).to('.contenttech p:nth-child(3)', {opacity: 1})
+tech.add().from('.contenttech p:nth-child(4)', {opacity: 0}).to('.contenttech p:nth-child(4)', {opacity: 1})
 
 
 
