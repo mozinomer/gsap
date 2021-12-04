@@ -1,0 +1,78 @@
+<style type="text/css">
+  
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .scrollMe {
+    height: 100vh;
+    background: #666;
+  }
+
+  .holdMe, .holdMe2 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+  }
+
+  .resizeMe, .resizeMe2 { 
+    width: 10px;
+    height: 10px;
+    background: blue;
+  }
+
+  .paddedCell {
+    height: 2000px;
+  }
+
+  .resizeMe2 {
+    padding: 1rem;
+    color: white;
+    overflow: hidden;
+  }
+</style>
+
+<div class="scrollMe">
+  <h1 class="center">scroll to resize the div </h1>
+  <h2 class="center">⏬</h2>
+</div>
+<div class="holdMe">
+  <div class="resizeMe"></div>
+</div>
+<div class="scrollMe">
+  <h1 class="center">Keep scrolling I added more... </h1>
+  <h2 class="center">👺</h2>
+</div>
+<div class="paddedCell">
+  <div class="holdMe2">
+    <div class="resizeMe2">
+      <h3>holdMe</h3>
+      <h3>closer</h3>
+      <p>tiny scroller</p>
+    </div>
+  </div>
+</div>
+<div class="scrollMe">
+  <h1 class="center">More coming soon... maybe</h1>
+  <h2 class="center">🥴</h2>
+</div>

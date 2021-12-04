@@ -1,0 +1,226 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+img 
+{
+    display: block;
+    max-width: 100%;
+}
+h1 {
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.scrollMe {
+  height: 100vh;
+  background: #666;
+}
+
+.holdMe, .holdMe2 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}
+
+.resizeMe, .resizeMe2 {
+  width: 10px;
+  height: 10px;
+  background: blue;
+}
+
+.paddedCell {
+  height: 2000px;
+}
+
+.resizeMe2 {
+  padding: 1rem;
+  color: white;
+  overflow: hidden;
+}
+.section1 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.videoContainer {
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+video.asds {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.panelLInes {
+    position: absolute;
+    background: black;
+    height: 100%;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.imageZoom {
+    z-index: 2;
+    position: relative;
+}
+
+.scrollToContinue {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: max-content;
+    color: #fff;
+}
+
+.panelLInes.line1 {
+    width: 20%;
+    left: 0;
+    right: auto;
+}
+
+.panelLInes.line2 {
+    width: 20%;
+    right: 0;
+    left: auto;
+}
+
+.panelLInes.line3 {
+    height: 42%;
+    top: 0;
+}
+
+.panelLInes.line4 {
+    bottom: 0;
+    top: auto;
+    height: 42%;
+}
+.containerInner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    max-width: 1300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 0px 10%;
+    color: #fff;
+    /*display: none*/
+}
+.dropShadow {
+    background: #ffffff3d;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.imageZoom img {
+    z-index: 3;
+    position: relative;
+}
+
+
+.asdwjlaij {
+    height: 100vh;
+    display: flex;
+    background: #e32727;
+    position: relative;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+.scrollMe {
+    height: 100vh;
+    background: green
+}
+.section1 .container{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.alignCenter {
+    align-items: center;
+}
+
+.techonologies {
+    width: 100%;
+    background: red;
+    max-width: 100%;
+}
+.spaceArround {
+    
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
