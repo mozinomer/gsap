@@ -95,6 +95,7 @@ video.asds {
 .imageZoom {
     z-index: 2;
     position: relative;
+    height: 100%;
 }
 
 .scrollToContinue {
@@ -156,6 +157,7 @@ video.asds {
 .imageZoom img {
     z-index: 3;
     position: relative;
+    height: 100%;
 }
 
 
@@ -186,6 +188,8 @@ video.asds {
     flex-wrap: wrap;
     width: 100%;
     max-width: 100%;
+    height: 100%;
+    max-width: 100%;
 }
 .alignCenter {
     align-items: center;
@@ -196,8 +200,10 @@ video.asds {
     background: #000;
     max-width: 100%;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
+    width: 100%;
+    max-width: 100%;
 }
 .spaceArround {
     
@@ -230,15 +236,96 @@ video.asds {
     overflow: hidden;
 }
 
+.contenttech p {
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    width: 100%;
+    height: 33%;
+    display: block;
+    /* background: red; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.contenttech {}
+
+.col-md-6 {
+    width: 50%;
+    
+}
+#asd {
+   position: absolute;
+   right: 0;
+   height: 100%;
+}
+.containers {
+    width: 100%;
+    height: 100%;
+}
+
+.containers .col-md-6 {height: 100%;display: flex;align-items: center;/* justify-content: center; */}
+
+.containers .col-md-6 h2 {display: flex;align-items: center;justify-content: center;width: 100%;}
 
 
 
 
 
 
+.philosophie {
+  position: relative;
+  width: 100%;
+}
 
+.indicators {
+  /* left: 2rem; */
+  top: 0;
+  /* margin: 10vh 0; */
+  /* height: 80vh; */
+  /* width: 3px; */
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  /*display: none !important;*/
+}
 
+.indicator {
+  /* width: 100%; */
+  background-color: #adadad;
+  /* flex-grow: 1; */
+  margin: 2px 0;
+  background: none !important;
+}
 
+.philosophie .point {
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* padding: 4rem; */
+  /* outline: 1px solid red; */
+}
+
+.philosophie .wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.point article {
+  flex-basis: 60%;
+  margin-right: auto;
+}
+
+.point img {
+  flex-basis: 25%;
+  max-width: 25vw;
+  height: auto;
+}
 
 
 

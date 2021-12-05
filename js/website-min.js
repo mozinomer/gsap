@@ -2,6 +2,7 @@ var $ = jQuery.noConflict();
 $(document).ready(function(e) {
     SiteManager.init();
 });
+d
 var SiteManager = {
     VIDEO_RATIO: 16 / 9,
     KEYPOINTS: ["space", "intelligence", "cyber", "defense", "homeland", "civilian", "health"],
