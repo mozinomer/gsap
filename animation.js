@@ -14,34 +14,6 @@ let sectionHeader = gsap.timeline({
 sectionHeader.from(".imageZoom", {scale: 1, autoAlpha: 1}).to(".imageZoom", {autoAlpha: 0, scale: 15});
 sectionHeader.add().fromTo('.containerInner h2', {autoAlpha: 0,   y: "1"}, {autoAlpha: 1,   y: "4vw",})
 sectionHeader.add().fromTo('.containerInner p', {autoAlpha: 0,   y: "6vw"}, {autoAlpha: 1,   y: "4vw",})
-// tl.end()
-
-
-
-
-// let tech = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.asdwjlaij',
-//         pin: true,
-//         start: "top top", 
-//         end: "100%",
-//         scrub: 1, 
-//         markers: true,
-//     }
-// });
-
-// tech.fromTo('.techs h2:first-child', {color: '#464646'}, {color: '#fff'})
-// tech.add().from('.techs h2:nth-child(2)', {color: '#464646'}).to('.techs h2:nth-child(2)', {color: '#fff'})
-// tech.add().from('.techs h2:nth-child(3)', {color: '#464646'}).to('.techs h2:nth-child(3)', {color: '#fff'})
-// tech.add().from('.techs h2:nth-child(4)', {color: '#464646'}).to('.techs h2:nth-child(4)', {color: '#fff'})
-
-// tech.fromTo('.contenttech pfirst-child', {autoAlpha: '0'}, {autoAlpha: '1'})
-// tech.add().from('.contenttech p:nth-child(2)', {autoAlpha: '0'}).to('.contenttech p:nth-child(2)', {autoAlpha: '1'})
-// tech.add().from('.contenttech p:nth-child(3)', {autoAlpha: '0'}).to('.contenttech p:nth-child(3)', {autoAlpha: '1'})
-// tech.add().from('.contenttech p:nth-child(4)', {autoAlpha: '0'}).to('.contenttech p:nth-child(4)', {autoAlpha: '1'})
-// tech.add().from('.contenttech p:nth-child(5)', {autoAlpha: '0'}).to('.contenttech p:nth-child(5)', {autoAlpha: '1'})
-
-
 
 
 
@@ -90,7 +62,7 @@ points.forEach(function(elem, i) {
   tl.from(elem.querySelector('article'), {autoAlpha:0, translateY: 100}, i)
   
   if (i != points.length-1) {
-    tl.to(indicators[i], {autoAlpha:0, translateY: 100})
+    tl.to(indicators[i], {autoAlpha:0, translateY: 300})
     tl.to(elem.querySelector('article'), {autoAlpha:0, translateY: -100}, i + 0.75)
 }
 
